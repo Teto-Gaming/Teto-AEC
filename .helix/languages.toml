@@ -1,0 +1,6 @@
+[language-server.clangd]
+command = "clangd"
+args = [
+  "--compile-commands-dir=build",
+  "--query-driver=/nix/store/*-xtensa-esp-elf-esp-idf-v5.5.2/bin/xtensa-esp32s3-elf-gcc",
+]

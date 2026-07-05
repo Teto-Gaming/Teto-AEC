@@ -1,0 +1,12 @@
+{
+  "lsp": {
+    "clangd": {
+      "binary": {
+        "arguments": [
+          "--compile-commands-dir=build",
+          "--query-driver=/nix/store/*/bin/xtensa-esp32s3-elf-*"
+        ]
+      }
+    }
+  }
+}

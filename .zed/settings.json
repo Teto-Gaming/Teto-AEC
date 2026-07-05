@@ -4,7 +4,7 @@
       "binary": {
         "arguments": [
           "--compile-commands-dir=build",
-          "--query-driver=/nix/store/*/bin/xtensa-esp32s3-elf-*"
+          "--query-driver=/nix/store/*-xtensa-esp-elf-esp-idf-v5.5.2/bin/xtensa-esp32s3-elf-gcc"
         ]
       }
     }
